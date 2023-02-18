@@ -11,66 +11,16 @@ import java.util.Scanner;
  * @author DONALD
  */
 public class CicloFor {
-    
-    public static void main (String[] args){
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         
-            int menor;
-            int intermedio;
-            int mayor;
-
+        System.out.println("Ingrese un número (1-10) para generar la TABLA DE MULTIPLICACIÓN ");
+        int num = sc.nextInt();
         
-        System.out.println("Ingrese un valor: ");
-        int v1 = sc.nextInt();
-        
-        System.out.println("Ingrese otro valor: ");
-        int v2 = sc.nextInt();
-        
-        System.out.println("Ingrese un último valor: ");
-        int v3 = sc.nextInt();
-        
-        if (v1 > v2 && v1 > v3) {
-            mayor = v1;
-            if(v2>v3){
-                intermedio = v2;
-                menor = v3;
-            }
-            else{
-                intermedio = v3;
-                menor = v2;
-            }
-            System.out.println(" El numero mayor es el :"+mayor+""
-                    + "\n El numero intermedio es:"+intermedio
-            +"\n El numero menor es: "+menor);
-        }   
-        
-        else if(v2 > v1 && v2 > v3){
-            mayor = v2;
-            if(v1>v3){
-                intermedio = v1;
-                menor = v3;
-            }
-            else{
-                intermedio = v3;
-                menor = v1;
-            }
-            System.out.println(" El numero mayor es el :"+mayor+""
-                    + "\n El numero intermedio es:"+intermedio
-            +"\n El numero menor es: "+menor);
-        }
-        else if(v3 > v1 && v3 > v2){
-            mayor = v3;
-            if(v1>v2){
-                intermedio = v1;
-                menor = v2;
-            }
-            else{
-                intermedio = v2;
-                menor = v1;
-            }
-            System.out.println(" El numero mayor es el :"+mayor+""
-                    + "\n El numero intermedio es:"+intermedio
-            +"\n El numero menor es: "+menor);
+        System.out.println("---TABLA DEL "+num+"---");
+        System.out.println("-------------------");
+        for (int i = 1; i <= 10 ; i++) {
+            System.out.println(num +" * "+ i +" = "+ num*i);
         }
     }
 }
