@@ -10,7 +10,7 @@ package com.mycompany.clase5;
  */
 public class Nodo {
     //atributos
-    int information;
+    int informacion;
     Nodo anterior;
     Nodo siguiente;
     
