@@ -5,12 +5,14 @@
 package com.mycompany.clase8_pilastack;
 
 import java.util.Stack;
-
+import java.util.Scanner;
 
 /**
  *
  * @author rexgr
  */
+
+
 public class Clase8_PilaStack {
 
     public static void main(String[] args) {

@@ -51,7 +51,7 @@ public class Pila {
         }
         tamaño++;
     }
-    public void removerPorUltimo(){
+    public void removerPorUltimo(String nombre, int edad){
         //Verifica posicion
         int posicion;
         posicion=tamaño -1;

@@ -63,7 +63,7 @@ public class Clase6_2 {
                     lista1.modificar(nododato);
                     System.out.println("\n");
                     break;
-                    case 5:
+                case 5:
                     System.out.println("Eliminar valor");
                     nododato = nododatoss.nextInt();
                     lista1.eliminar(nododato);
