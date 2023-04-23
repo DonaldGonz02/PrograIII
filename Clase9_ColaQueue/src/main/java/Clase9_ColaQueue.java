@@ -33,7 +33,7 @@ public class Clase9_ColaQueue {
             System.out.println("2.Visualizar");
             System.out.println("3.Eliminar");
             System.out.println("4.Salida");
-            System.out.println("\nIngrese una copcion");
+            System.out.println("\nIngrese una opcion");
             op=option.nextInt();
             System.out.println("\n");
             
