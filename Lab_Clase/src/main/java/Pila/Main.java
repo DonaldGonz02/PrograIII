@@ -24,7 +24,7 @@ public class Main {
 
         while (opcion != 0) {
             try {
-                System.out.println("\t***** MENU PRINCIPAL PILAS VECTOR *****");
+                System.out.println("\t***** Práctica PilaStack *****");
                 System.out.println("\t** 1. Vaciar la pila                      **");
                 System.out.println("\t** 2. Listar la pila                      **");
                 System.out.println("\t** 3. Insertar un valor de la pila        **");
@@ -53,7 +53,7 @@ public class Main {
                     case 3:
                         try {
                             System.out.println("\n<<-- Insertar un valor en la pila -->");
-                            System.out.print("telefono: ");
+                            System.out.print("Numero: ");
                             int numero = escribir.nextInt();
                             System.out.print("Nombre: ");
                             String nombre = escribir.next();

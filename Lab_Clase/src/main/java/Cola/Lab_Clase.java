@@ -32,7 +32,7 @@ public class Lab_Clase {
         
         //menu
         while(op!=4){
-            System.out.println("-----Lab. cola-----");
+            System.out.println("-----Práctica Cola-----");
             System.out.println("1.Ingresar");
             System.out.println("2.Visualizar");
             System.out.println("3.Eliminar");
