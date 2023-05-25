@@ -15,7 +15,7 @@ public class Abb {
         public nodoArbol raiz;
     }
  // Constructor Arbol abb
-    public void abb(){
+    public void Abb(){
         nodoArbol raiz = new nodoArbol();
     }
     
@@ -31,8 +31,8 @@ public class Abb {
         if (esVacio()) {
             nodoArbol nuevo = new nodoArbol();
             nuevo.dato = a;
-            nuevo.hd = new abb();
-            nuevo.hi = new abb();
+            nuevo.hd = new Abb();
+            nuevo.hi = new Abb();
             raiz = nuevo;
         }
         // De  lo contrario tengo que ver si es mayor o menor
@@ -71,8 +71,8 @@ public class Abb {
         }
     }
  
-    public abb buscar(int a){
-        abb arbolito = null;
+    public Abb buscar(int a){
+        Abb arbolito = null;
         if (!esVacio()) {
           if (a == raiz.dato) {
            return this;
@@ -136,7 +136,7 @@ public class Abb {
  
   // Este nos da el valor maximo de nuestro arbol
     public int buscarMan() {
-        abb arbolActual = this;
+        Abb arbolActual = this;
         while( !arbolActual.raiz.hd.esVacio() ) {
             arbolActual = arbolActual.raiz.hd;
         }
@@ -155,7 +155,7 @@ public class Abb {
  
 // Este nos permite eliminar un valor que hay
     public void eliminar(int a) {
-        abb paraEliminar = buscar(a);
+        Abb paraEliminar = buscar(a);
         if (!paraEliminar.esVacio()) {
             if (paraEliminar.esHoja()) {
                 paraEliminar.raiz = null;

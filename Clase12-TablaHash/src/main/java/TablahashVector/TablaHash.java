@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.mycompany.clase12.tablahash;
+package TablahashVector;
 
 /**
  *
@@ -12,6 +12,8 @@ public class TablaHash {
     //Atributos
     int dato;
     int estado;
+    // 0 vacio, 1 eliminado, 2 ocupado
+
     
     //funcion
     static int funcion(int n, int m){
